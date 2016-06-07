@@ -1,0 +1,156 @@
+#!/usr/bin/env node
+
+/**
+ * Module dependencies.
+ */
+
+var app = require('../app');
+var debug = require('debug')('Broker:server');
+var http = require('http');
+
+/**
+ * Get port from environment and store in Express.
+ */
+
+var port = normalizePort(process.env.PORT || '3000');
+app.set('port', port);
+
+/**
+ * Create HTTP server.
+ */
+var socketio = require('socket.io');
+var server = http.createServer(app);
+var io = socketio.listen(server);     // global
+
+/**
+ * Listen on provided port, on all network interfaces.
+ */
+
+server.listen(port);
+server.on('error', onError);
+server.on('listening', onListening);
+
+/**
+ * Normalize a port into a number, string, or false.
+ */
+
+function normalizePort(val) {
+  var port = parseInt(val, 10);
+
+  if (isNaN(port)) {
+    // named pipe
+    return val;
+  }
+
+  if (port >= 0) {
+    // port number
+    return port;
+  }
+
+  return false;
+}
+
+/**
+ * Event listener for HTTP server "error" event.
+ */
+
+function onError(error) {
+  if (error.syscall !== 'listen') {
+    throw error;
+  }
+
+  var bind = typeof port === 'string'
+    ? 'Pipe ' + port
+    : 'Port ' + port;
+
+  // handle specific listen errors with friendly messages
+  switch (error.code) {
+    case 'EACCES':
+      console.error(bind + ' requires elevated privileges');
+      process.exit(1);
+      break;
+    case 'EADDRINUSE':
+      console.error(bind + ' is already in use');
+      process.exit(1);
+      break;
+    default:
+      throw error;
+  }
+}
+
+/**
+ * Event listener for HTTP server "listening" event.
+ */
+
+function onListening() {
+  var addr = server.address();
+  var bind = typeof addr === 'string'
+    ? 'pipe ' + addr
+    : 'port ' + addr.port;
+  debug('Listening on ' + bind);
+}
+
+var publications = [];
+var subscriptions = [];
+
+var socket = function (socket) {
+  var
+    _checkMatchSub = function (pub) {
+      var
+        symbol = pub.value.symbol;
+
+      switch ( symbol ) {
+        case '=' : {
+          _matchEqualOnCompanyAndAction(pub, subscriptions);
+          break;
+        }
+      }
+    },
+    _checkMatchPub = function (sub) {
+      var
+        symbol = sub.value.symbol;
+
+      switch ( symbol ) {
+        case '=' : {
+          _matchEqualOnCompanyAndAction(sub, publications);
+          break;
+        }
+      }
+    },
+    _matchEqualOnCompanyAndAction = function(item, colections){
+    var i,
+      event = '',
+      len = colections.length;
+      console.log('_matchEqualOnCompanyAndAction');
+    for ( i = 0; i < len; i += 1 ) {
+      if (
+        item.company === colections[i].company &&
+        item.value.valueAction === colections[i].value.valueAction
+      ) {
+        event = item.company + '=' + item.value.valueAction;
+        console.log('EMIT', event);
+        socket.emit(event, colections[i]);
+      }
+    }
+  }; 
+  console.log('connection');
+
+  socket.on('new_publication', function (pub) {
+    console.log('New_pub', pub);
+    publications.push(pub);
+    _checkMatchSub(pub);
+    //console.log('Pubs', publications);
+  });
+
+  socket.on('new_subscription', function (sub) {
+    console.log('New_sub', sub);
+    subscriptions.push(sub);
+    //console.log('Subs', subscriptions);
+
+    _checkMatchPub(sub);
+
+  });
+};
+
+io.sockets.on("connection", socket);
+

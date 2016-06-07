@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Subcriber</title>
+</head>
+<body>
+<header></header>
+<div class="match-subscriptions">
+  <match-subscriptions match="matchPublication"></match-subscriptions>
+</div>
+<section class="subscription-list">
+
+
+  <div
+    class="subcription"
+    ng-repeat = "subscription in subscriptions">
+    <div
+      class="item"
+      ng-if="subscription.id">
+      <span> ID </span>
+      <span ng-bind="subscription.id"></span>
+    </div>
+    <div
+      class="item"
+      ng-if="subscription.company">
+      <span> Company </span>
+      <span ng-bind="subscription.company"> </span>
+    </div>
+
+    <div
+      class="item"
+      ng-if="subscription.value">
+      <span> Value </span>
+      <ul>
+        <li ng-bind="subscription.value.symbol"></li>
+        <li ng-bind="subscription.value.valueAction"></li>
+      </ul>
+    </div>
+    <div
+      class="item"
+      ng-if="subscription.variation">
+      <span> Variation </span>
+      <ul>
+        <li ng-bind="subscription.variation.symbol"></li>
+        <li ng-bind="subscription.variation.valueVariation"></li>
+      </ul>
+    </div>
+    <div
+      class="item"
+      ng-if="subscription.date">
+      <span> Date </span>
+      <span  ng-bind = "subscription.date" > </span>
+    </div>
+  </div>
+
+</section>
+</body>
+</html>

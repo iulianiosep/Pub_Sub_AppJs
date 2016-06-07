@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<body>
+  <div class="message-match">
+    Match publications
+  </div>
+  <div class="list-match-publications">
+      <div
+        class="subcription"
+        ng-repeat = "item in publications">
+        <div class="match-subscription">
+          {{item.sub}}
+        </div>
+        <div
+          class="item"
+          ng-if="item.pub.id">
+          <span> ID </span>
+          <span ng-bind="item.pub.id"></span>
+        </div>
+        <div
+          class="item"
+          ng-if="item.pub.company">
+          <span> Company </span>
+          <span ng-bind="item.pub.company"> </span>
+        </div>
+
+        <div
+          class="item"
+          ng-if="item.pub.value">
+          <span> Value </span>
+          <ul>
+            <li ng-bind="item.pub.value.symbol"></li>
+            <li ng-bind="item.pub.value.valueAction"></li>
+          </ul>
+        </div>
+        <div
+          class="item"
+          ng-if="item.pub.variation">
+          <span> Variation </span>
+          <ul>
+            <li ng-bind="item.pub.variation.symbol"></li>
+            <li ng-bind="item.pub.variation.valueVariation"></li>
+          </ul>
+        </div>
+        <div
+          class="item"
+          ng-if="item.pub.date">
+          <span> Date </span>
+          <span  ng-bind = "item.pub.date" > </span>
+        </div>
+      </div>
+
+  </div>
+
+</body>
+</html>

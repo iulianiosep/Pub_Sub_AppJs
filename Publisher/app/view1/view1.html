@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Publisher</title>
+  </head>
+<body>
+  <header></header>
+  <section class="publication-list">
+    <table>
+      <thead>
+      <tr>
+        <th> Id </th>
+        <th> Company </th>
+        <th colspan="2"> Value </th>
+        <th colspan="2"> Variation </th>
+        <th> Date </th>
+      </tr>
+      <tbody>
+      <tr
+        ng-repeat="publication in publications"
+        class="row">
+        <td> {{ publication.id }} </td>
+        <td> {{ publication.company }} </td>
+
+        <td> {{ publication.value.symbol }} </td>
+        <td> {{ publication.value.valueAction }} </td>
+
+        <td> {{ publication.variation.symbol }} </td>
+        <td> {{ publication.variation.valueVariation }} </td>
+
+        <td> {{ publication.date }} </td>
+      </tr>
+      </tbody>
+      </thead>
+    </table>
+  </section>
+</body>
+</html>
