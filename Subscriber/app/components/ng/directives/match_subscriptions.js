@@ -23,6 +23,6 @@ angular.module('SubscriberApp')
           },true);
         
         }
-      }
+      };
     }
   ]);

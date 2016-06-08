@@ -30,6 +30,8 @@ server.listen(port);
 server.on('error', onError);
 server.on('listening', onListening);
 
+console.log('Broker --->', port);
+
 /**
  * Normalize a port into a number, string, or false.
  */
@@ -94,63 +96,217 @@ var publications = [];
 var subscriptions = [];
 
 var socket = function (socket) {
+  console.log('Connection...');
   var
-    _checkMatchSub = function (pub) {
+    _emitEvent = function (item, matchItem, prop) {
       var
-        symbol = pub.value.symbol;
+        eventData = {},
+        eventString;
 
-      switch ( symbol ) {
+      eventString = item.company || '' + item[prop].symbol + item[prop].value;
+
+      console.log('EMIT', eventString, prop);
+
+      eventData.pub = matchItem;
+      eventData.sub = item;
+
+      socket.emit(eventString, eventData);
+      socket.broadcast.emit(eventString, eventData);
+    },
+    _matchEqual = function ( item, colections, prop ) {
+      var 
+        i,
+        len = colections.length;
+
+      for ( i = 0; i < len; i += 1 ) {
+        if (  item[prop].value === colections[i][prop].value ) {
+          _emitEvent ( item, colections[i], prop );
+        }
+      } 
+    },
+    _matchGreaterEqual = function ( item, colections, prop ) {
+      var
+        i,
+        len = colections.length;
+
+      for ( i = 0; i < len; i += 1 ) {
+        if (  colections[i][prop].value >=  item[prop].value ) {
+          _emitEvent ( item, colections[i], prop );
+        }
+      }
+    },
+    _matchLessEqual = function ( item, colections, prop ) {
+      var
+        i,
+        len = colections.length;
+
+      for ( i = 0; i < len; i += 1 ) {
+        if (  colections[i][prop].value <=  item[prop].value ) {
+          _emitEvent ( item, colections[i], prop );
+        }
+      }
+    },
+    _matchGreater = function ( item, colections, prop ) {
+      var
+        i,
+        len = colections.length;
+
+
+      for ( i = 0; i < len; i += 1 ) {
+        if (  colections[i][prop].value > item[prop].value ) {
+          _emitEvent ( item, colections[i], prop );
+        }
+      }
+    },
+    _matchLess = function ( item, colections, prop ) {
+      var
+        i,
+        len = colections.length;
+
+      for ( i = 0; i < len; i += 1 ) {
+        if (  colections[i][prop].value < item[prop].value  ) {
+          _emitEvent ( item, colections[i], prop );
+        }
+      }
+    },
+    _verifyMatch = function ( item, colections, prop) {
+      var symbol = item[prop].symbol;
+
+
+      switch (symbol) {
         case '=' : {
-          _matchEqualOnCompanyAndAction(pub, subscriptions);
+          _matchEqual ( item, colections, prop );
           break;
         }
+        case '>=' : {
+          _matchGreaterEqual ( item, colections, prop );
+          break;
+        }
+         case '<=' : {
+           _matchLessEqual ( item, colections, prop );
+          break;
+        }
+        case '>' : {
+          _matchGreater ( item, colections, prop );
+          break;
+        }
+        case '<' : {
+          _matchLess ( item, colections, prop );
+          break;
+        }
+
+      }
+    },
+    _verifyMatchPubSub = function (pub ,sub, prop) {
+      var sb = sub[prop].symbol;
+
+      switch (sb) {
+        case '<' : {
+          if ( pub[prop].value < sub[prop].value ) {
+            _emitEvent(sub,pub,prop);
+          }
+          break;
+        }
+        case '>' : {
+          if ( pub[prop].value > sub[prop].value ) {
+            _emitEvent(sub, pub, prop);
+          }
+          break;
+        }
+        case '=' : {
+          if ( pub[prop].value === sub[prop].value ) {
+            _emitEvent(sub,pub,prop);
+          }
+          break;
+        }
+        case '>=' : {
+          if ( pub[prop].value >= sub[prop].value ) {
+            _emitEvent(sub,pub,prop);
+          }
+          break;
+        }
+        case '<=' : {
+          if ( pub[prop].value <= sub[prop].value ) {
+            _emitEvent(sub,pub,prop);
+          }
+          break;
+        }
+      }
+
+    },
+    _verifyMatchNewPub = function (pub, subscriptions) {
+      var
+        i,
+        sub,
+        len = subscriptions.length;
+
+      for ( i = 0; i < len; i +=1 ) {
+        sub =  subscriptions[i];
+        if ( sub.company ) { //have company prop and is equls to pub company property
+           if ( sub.company === pub.company ) {
+             if ( sub.value ) {
+               _verifyMatchPubSub(pub, sub, 'value' );
+             }
+             if ( sub.variation ) {
+               _verifyMatchPubSub(pub, sub, 'variation' );
+             }
+           }
+        } else {
+          if ( sub.value ) {
+            _verifyMatchPubSub(pub, sub, 'value' );
+          }
+          if ( sub.variation ) {
+            _verifyMatchPubSub(pub, sub, 'variation' );
+          }
+        }
+      }
+    },
+    _verifyMatchOnCompany = function (item, colections) {
+      if ( item.value ) {
+        _verifyMatch( item, colections, 'value' );
+      }
+      if ( item.variation ) {
+         _verifyMatch( item, colections, 'variation' );
       }
     },
     _checkMatchPub = function (sub) {
       var
-        symbol = sub.value.symbol;
+        matchPubOnCompany = [],
+        i,j,
+        len = publications.length;
 
-      switch ( symbol ) {
-        case '=' : {
-          _matchEqualOnCompanyAndAction(sub, publications);
-          break;
+
+      if ( sub.company ) {
+        for ( i = 0; i < len ; i += 1 ) {
+          if ( sub.company === publications[i].company ) {
+            matchPubOnCompany.push(publications[i]);
+          }
         }
+        _verifyMatchOnCompany ( sub, matchPubOnCompany );
+      } else {
+        console.log('n-am companie');
+        _verifyMatchOnCompany ( sub, publications );
       }
+
     },
-    _matchEqualOnCompanyAndAction = function(item, colections){
-    var i,
-      event = '',
-      len = colections.length;
-      console.log('_matchEqualOnCompanyAndAction');
-    for ( i = 0; i < len; i += 1 ) {
-      if (
-        item.company === colections[i].company &&
-        item.value.valueAction === colections[i].value.valueAction
-      ) {
-        event = item.company + '=' + item.value.valueAction;
-        console.log('EMIT', event);
-        socket.emit(event, colections[i]);
-      }
-    }
-  }; 
-  console.log('connection');
+    _checkMatchSub = function (pub) {
+      _verifyMatchNewPub ( pub, subscriptions );
+    };
 
   socket.on('new_publication', function (pub) {
-    console.log('New_pub', pub);
+    console.log('New_pub', pub.company);
+
     publications.push(pub);
     _checkMatchSub(pub);
-    //console.log('Pubs', publications);
   });
 
   socket.on('new_subscription', function (sub) {
-    console.log('New_sub', sub);
+    console.log('New_sub', sub.company);
+
     subscriptions.push(sub);
-    //console.log('Subs', subscriptions);
-
     _checkMatchPub(sub);
-
   });
 };
 
-io.sockets.on("connection", socket);
+io.sockets.on('connection', socket);
 

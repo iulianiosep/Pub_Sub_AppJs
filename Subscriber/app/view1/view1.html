@@ -5,9 +5,9 @@
 </head>
 <body>
 <header></header>
-<div class="match-subscriptions">
-  <match-subscriptions match="matchPublication"></match-subscriptions>
-</div>
+  <div class="match-subscriptions">
+    <match-subscriptions match="matchPublication"></match-subscriptions>
+  </div>
 <section class="subscription-list">
 
 
@@ -33,7 +33,7 @@
       <span> Value </span>
       <ul>
         <li ng-bind="subscription.value.symbol"></li>
-        <li ng-bind="subscription.value.valueAction"></li>
+        <li ng-bind="subscription.value.value"></li>
       </ul>
     </div>
     <div
@@ -42,7 +42,7 @@
       <span> Variation </span>
       <ul>
         <li ng-bind="subscription.variation.symbol"></li>
-        <li ng-bind="subscription.variation.valueVariation"></li>
+        <li ng-bind="subscription.variation.value"></li>
       </ul>
     </div>
     <div

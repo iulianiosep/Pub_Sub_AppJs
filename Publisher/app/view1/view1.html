@@ -11,8 +11,8 @@
       <tr>
         <th> Id </th>
         <th> Company </th>
-        <th colspan="2"> Value </th>
-        <th colspan="2"> Variation </th>
+        <th> Value </th>
+        <th> Variation </th>
         <th> Date </th>
       </tr>
       <tbody>
@@ -22,11 +22,9 @@
         <td> {{ publication.id }} </td>
         <td> {{ publication.company }} </td>
 
-        <td> {{ publication.value.symbol }} </td>
-        <td> {{ publication.value.valueAction }} </td>
+        <td> {{ publication.value.value }} </td>
 
-        <td> {{ publication.variation.symbol }} </td>
-        <td> {{ publication.variation.valueVariation }} </td>
+        <td> {{ publication.variation.value }} </td>
 
         <td> {{ publication.date }} </td>
       </tr>

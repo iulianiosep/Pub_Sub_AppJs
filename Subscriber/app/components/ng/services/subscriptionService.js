@@ -21,11 +21,11 @@ angular.module('SubscriberApp')
               company : 'SwissArmy',
               value : {
                 symbol : '>=',
-                valueAction :  72.368542
+                value :  72.368542
               },
               variation : {
                 symbol: '=',
-                valueVariation : 81.853694
+                value : 81.853694
               },
               date : '2011.11.04'
             },
@@ -33,25 +33,16 @@ angular.module('SubscriberApp')
               id: 'S2',
               company : 'Mercedes',
               value : {
-                symbol : '=',
-                valueAction : 35.560167
-              },
-              variation : {
-                symbol: '>',
-                valueVariation : 82.796716
-              },
-              date : '2010.12.04'
+                symbol : '>',
+                value : 80.560167
+              }
             },
             {
               id: 'S3',
-              company : 'Cosmote',
-              value : {
-                symbol : '=',
-                valueAction : 68.318735
-              },
+              
               variation : {
-                symbol: '>',
-                valueVariation : 64.668722
+                symbol: '=',
+                value : 64.668722
               },
               date : '2016.02.04'
             }

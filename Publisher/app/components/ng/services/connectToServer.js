@@ -20,12 +20,10 @@ angular.module('PublisherApp')
                             id: 'P1',
                             company : 'SwissArmy',
                             value : {
-                                symbol : '>=',
-                                valueAction :  72.368542
+                                value :  82.368542
                             },
                             variation : {
-                                symbol: '=',
-                                valueVariation : 81.853694
+                                value : 79.853694
                             },
                             date : '2011.11.04'
                         },
@@ -33,12 +31,10 @@ angular.module('PublisherApp')
                             id: 'P2',
                             company : 'Mercedes',
                             value : {
-                                symbol : '=',
-                                valueAction : 35.560167
+                                value : 90.560167
                             },
                             variation : {
-                                symbol: '>',
-                                valueVariation : 82.796716
+                                value : 82.796716
                             },
                             date : '2010.12.04'
                         },
@@ -46,12 +42,10 @@ angular.module('PublisherApp')
                             id: 'P3',
                             company : 'Cosmote',
                             value : {
-                                symbol : '=',
-                                valueAction : 68.318735
+                                value : 68.318735
                             },
                             variation : {
-                                symbol: '>',
-                                valueVariation : 64.668722
+                                value : 64.668722
                             },
                             date : '2016.02.04'
                         }

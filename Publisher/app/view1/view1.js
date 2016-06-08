@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('myApp.view1', ['ngRoute'])
+angular.module('PublisherApp.view1', ['ngRoute'])
 
 .config(['$routeProvider', function($routeProvider) {
   $routeProvider.when('/view1', {
@@ -21,7 +21,7 @@ angular.module('myApp.view1', ['ngRoute'])
     'use strict';
 
     $scope.publications = connectService.getPublicatons();
-    connectService.savePublication($scope.publications[1]);
+    //connectService.savePublication($scope.publications[1]);
 
     socket.emit('new_publication', $scope.publications[0]);
     socket.emit('new_publication', $scope.publications[1]);

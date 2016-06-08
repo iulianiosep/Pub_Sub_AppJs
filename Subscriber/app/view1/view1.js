@@ -26,21 +26,27 @@ angular.module('SubscriberApp.view1', ['ngRoute'])
 
     $scope.matchPublication = [];
     $scope.subscriptions = connectService.getSubscriptions();
-    socket.emit('new_subscription', $scope.subscriptions[1]);
+    socket.emit('new_subscription', $scope.subscriptions[2]);
 
     sub =
-      $scope.subscriptions[1].company +
-      $scope.subscriptions[1].value.symbol +
-      $scope.subscriptions[1].value.valueAction;
+      $scope.subscriptions[2].company || ''+
+      $scope.subscriptions[2].variation.symbol +
+      $scope.subscriptions[2].variation.value;
 
       $log.info('listener', sub);
-      socket.on(sub, function (matchPub) {
-        $log.info('Catch', matchPub);
-        var match = {};
-        match.sub = sub;
-        match.pub = matchPub;
-        
-        $scope.matchPublication.push(match);
-        $scope.$apply();
+      socket.on(sub, function (match) {
+        $log.info('Catch', match);
+        var matching = {}, exist;
+        matching.sub = match.sub;
+        matching.pub = match.pub;
+
+        exist = _.find($scope.matchPublication, function (obj) {
+          return obj.pub.id === matching.pub.id;
+        });
+
+        if (!exist) {
+          $scope.matchPublication.push(matching);
+          $scope.$apply();
+        }
       });
 }]);
