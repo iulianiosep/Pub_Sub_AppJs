@@ -1,249 +1,277 @@
 ---Publications---
 
-{(id,377);(company, Yahoo);(value,=,54.609821);(variation,<=,9.689627);(date,4.10.2038)}
-{(id,378);(company, Zeiss);(value,=,42.332224);(variation,<=,69.359416);(date,19.12.2022)}
-{(id,379);(company, Samsung);(value,=,84.514908);(variation,=,42.106388);(date,25.4.2032)}
-{(id,380);(company, Bing);(value,>=,0.241096);(variation,<=,86.413160);(date,12.4.2037)}
-{(id,381);(company, Intel);(value,<=,70.110172);(variation,=,89.349040);(date,30.4.2013)}
-{(id,382);(company, Nokia);(value,>=,49.897763);(variation,>=,89.632862);(date,3.8.2002)}
-{(id,383);(company, VW);(value,>=,71.739860);(variation,>,88.186285);(date,20.5.2002)}
-{(id,384);(company, Cosmote);(value,<=,32.789087);(variation,>,46.162297);(date,28.9.2047)}
-{(id,385);(company, Facebook);(value,>=,71.413312);(variation,>=,70.513016);(date,6.3.2002)}
-{(id,386);(company, Telekom);(value,<=,30.832850);(variation,=,87.020478);(date,7.8.2013)}
-{(id,387);(company, AOL);(value,=,10.327464);(variation,<=,0.845363);(date,2.8.2009)}
-{(id,388);(company, Orange);(value,>=,3.878903);(variation,>=,44.584490);(date,23.5.2012)}
-{(id,389);(company, Orange);(value,>,26.361888);(variation,>=,13.809626);(date,9.11.2011)}
-{(id,390);(company, SAP);(value,>=,27.204199);(variation,>=,90.112003);(date,22.11.2029)}
-{(id,391);(company, Telekom);(value,<=,91.567736);(variation,<=,51.652577);(date,12.9.2004)}
-{(id,392);(company, Sharp);(value,<=,29.013947);(variation,<=,71.211890);(date,31.5.2029)}
-{(id,393);(company, Electionics Arts);(value,=,49.681082);(variation,=,1.730399);(date,15.5.2042)}
-{(id,394);(company, Cosmote);(value,<=,27.948851);(variation,=,49.369793);(date,4.1.2017)}
-{(id,395);(company, Asus);(value,>,53.614917);(variation,=,34.034242);(date,19.2.2039)}
-{(id,396);(company, Acer);(value,>=,70.574053);(variation,=,37.440107);(date,16.9.2040)}
-{(id,397);(company, SwissArmy);(value,=,2.966399);(variation,<=,38.651692);(date,19.9.2038)}
-{(id,398);(company, Ferrari);(value,<=,68.883328);(variation,>=,37.134922);(date,17.12.2044)}
-{(id,399);(company, Amazon);(value,=,81.508835);(variation,<=,63.301492);(date,13.10.2005)}
-{(id,400);(company, Acer);(value,=,37.806330);(variation,=,76.546525);(date,22.8.2031)}
-{(id,401);(company, Nokia);(value,=,94.692831);(variation,=,50.810266);(date,4.6.2044)}
-{(id,402);(company, Ferrari);(value,=,32.697531);(variation,<=,47.621082);(date,23.10.2017)}
-{(id,403);(company, Allview);(value,<=,7.150487);(variation,=,76.635029);(date,3.7.2045)}
-{(id,404);(company, Ubisoft);(value,=,86.843471);(variation,=,43.681143);(date,22.6.2035)}
-{(id,405);(company, Mercedes);(value,=,80.199591);(variation,<=,86.333811);(date,4.1.2046)}
-{(id,406);(company, Microsoft);(value,=,48.957793);(variation,=,96.917631);(date,4.7.2042)}
-{(id,407);(company, SwissArmy);(value,>=,9.329508);(variation,<=,33.088168);(date,19.1.2040)}
-{(id,408);(company, Nvidia);(value,>,20.685446);(variation,=,15.875729);(date,6.5.2028)}
-{(id,409);(company, Facebook);(value,=,61.714530);(variation,<=,15.207373);(date,16.9.2026)}
-{(id,410);(company, Ubisoft);(value,>=,94.106876);(variation,=,22.983489);(date,25.4.2018)}
-{(id,411);(company, Facebook);(value,>,13.705863);(variation,<=,13.602100);(date,19.6.2021)}
-{(id,412);(company, HP);(value,>,89.214759);(variation,=,92.028565);(date,20.6.2033)}
-{(id,413);(company, Orange);(value,=,88.335826);(variation,>,29.309977);(date,20.7.2013)}
-{(id,414);(company, HP);(value,>=,91.454817);(variation,>,85.662404);(date,14.9.2042)}
-{(id,415);(company, AMD);(value,=,92.812891);(variation,>,20.981475);(date,11.3.2015)}
-{(id,416);(company, Microsoft);(value,=,89.181188);(variation,<=,92.913602);(date,3.12.2019)}
-{(id,417);(company, Amazon);(value,>,56.028932);(variation,>,42.384106);(date,21.11.2029)}
-{(id,418);(company, Yahoo);(value,>,11.191137);(variation,>,66.667684);(date,18.9.2002)}
-{(id,419);(company, Microsoft);(value,=,66.057314);(variation,>,79.909665);(date,25.2.2043)}
-{(id,420);(company, Ferrari);(value,=,64.210944);(variation,>,61.183508);(date,9.1.2049)}
-{(id,421);(company, Yahoo);(value,>,7.641835);(variation,<=,90.050966);(date,11.12.2043)}
-{(id,422);(company, Ubisoft);(value,>,70.390942);(variation,=,69.588305);(date,5.4.2037)}
-{(id,423);(company, Blizzard);(value,=,99.725333);(variation,>=,36.936552);(date,15.3.2019)}
-{(id,424);(company, Blizzard);(value,<=,4.809717);(variation,=,61.366619);(date,19.1.2030)}
-{(id,425);(company, Microsoft);(value,>=,32.902005);(variation,>=,29.801325);(date,2.2.2018)}
-{(id,426);(company, Ferrari);(value,=,32.984405);(variation,=,19.882809);(date,28.4.2026)}
-{(id,427);(company, SAP);(value,=,6.970428);(variation,>,60.505997);(date,22.2.2005)}
-{(id,428);(company, Ubisoft);(value,<=,48.356578);(variation,>=,79.863887);(date,3.5.2017)}
-{(id,429);(company, Samsung);(value,<=,68.401135);(variation,<=,41.010773);(date,30.6.2014)}
-{(id,430);(company, SAP);(value,>,9.793390);(variation,<=,64.900662);(date,7.6.2047)}
-{(id,431);(company, Siemens);(value,=,47.837764);(variation,>=,40.916166);(date,11.6.2008)}
-{(id,432);(company, LG);(value,>=,79.103977);(variation,=,24.948881);(date,13.9.2010)}
-{(id,433);(company, Telekom);(value,>,97.613453);(variation,>,24.921415);(date,22.8.2035)}
-{(id,434);(company, Zeiss);(value,=,58.510086);(variation,>,73.845637);(date,3.9.2020)}
-{(id,435);(company, Orange);(value,=,29.227577);(variation,=,90.356151);(date,1.7.2031)}
-{(id,436);(company, Microsoft);(value,=,28.174688);(variation,>,26.776940);(date,30.8.2003)}
-{(id,437);(company, Asus);(value,>=,50.880459);(variation,>,4.654073);(date,22.3.2030)}
-{(id,438);(company, Acer);(value,>,83.690909);(variation,=,37.809381);(date,7.11.2014)}
-{(id,439);(company, Yahoo);(value,>,4.928739);(variation,=,42.881558);(date,27.6.2019)}
-{(id,440);(company, Asus);(value,<=,73.577074);(variation,<=,37.372967);(date,22.11.2036)}
-{(id,441);(company, SwissArmy);(value,=,5.426191);(variation,<=,25.205237);(date,2.4.2044)}
-{(id,442);(company, Microsoft);(value,=,36.780908);(variation,>=,69.762261);(date,28.4.2041)}
-{(id,443);(company, LG);(value,>=,75.603504);(variation,>=,54.423658);(date,24.3.2015)}
-{(id,444);(company, Intel);(value,>,40.186773);(variation,=,30.637532);(date,10.9.2044)}
-{(id,445);(company, Mercedes);(value,>=,85.354167);(variation,<=,53.444014);(date,13.11.2017)}
-{(id,446);(company, Mercedes);(value,>=,16.098514);(variation,<=,4.531999);(date,7.1.2008)}
-{(id,447);(company, VW);(value,<=,88.775292);(variation,>,2.789392);(date,10.1.2009)}
-{(id,448);(company, Asus);(value,=,99.758904);(variation,=,2.343822);(date,3.7.2006)}
-{(id,449);(company, LG);(value,=,61.629078);(variation,=,78.112125);(date,4.7.2036)}
-{(id,450);(company, Asus);(value,>=,66.832484);(variation,>,98.843348);(date,22.2.2020)}
-{(id,451);(company, Ferrari);(value,=,38.859218);(variation,>=,87.667470);(date,20.9.2033)}
-{(id,452);(company, Yahoo);(value,>=,70.918912);(variation,>,70.152898);(date,2.12.2000)}
-{(id,453);(company, Siemens);(value,>=,52.098148);(variation,<=,9.833064);(date,8.4.2031)}
-{(id,454);(company, Ferrari);(value,=,81.044954);(variation,>=,31.275369);(date,22.2.2024)}
-{(id,455);(company, Orange);(value,>,67.143773);(variation,>,30.607013);(date,20.10.2015)}
-{(id,456);(company, VW);(value,>=,19.168676);(variation,>,73.583178);(date,25.1.2047)}
-{(id,457);(company, SAP);(value,=,21.481979);(variation,=,81.105991);(date,12.11.2028)}
-{(id,458);(company, Yahoo);(value,=,97.680593);(variation,<=,2.298044);(date,7.10.2014)}
-{(id,459);(company, Bing);(value,<=,61.781671);(variation,>=,75.048067);(date,24.5.2029)}
-{(id,460);(company, Intel);(value,>,56.892605);(variation,=,74.034852);(date,20.2.2012)}
-{(id,461);(company, Ferrari);(value,<=,81.383709);(variation,>=,46.290475);(date,29.12.2049)}
-{(id,462);(company, Siemens);(value,<=,2.551347);(variation,<=,34.250923);(date,25.9.2029)}
-{(id,463);(company, SwissArmy);(value,=,57.808161);(variation,=,86.294137);(date,5.1.2045)}
-{(id,464);(company, Facebook);(value,>,43.336283);(variation,=,54.786828);(date,16.10.2007)}
-{(id,465);(company, Mercedes);(value,>=,90.267647);(variation,>=,81.643117);(date,25.10.2009)}
-{(id,466);(company, Acer);(value,<=,28.348643);(variation,=,71.346171);(date,24.8.2003)}
-{(id,467);(company, Zeiss);(value,>=,37.134922);(variation,=,51.527451);(date,20.7.2026)}
-{(id,468);(company, Nokia);(value,=,84.630879);(variation,<=,20.993683);(date,30.5.2041)}
-{(id,469);(company, Electionics Arts);(value,>,53.480636);(variation,=,85.274819);(date,22.2.2023)}
-{(id,470);(company, Amazon);(value,>=,54.643391);(variation,<=,79.671621);(date,1.6.2018)}
-{(id,471);(company, Facebook);(value,=,28.547014);(variation,>,79.808954);(date,22.11.2033)}
-{(id,472);(company, SAP);(value,>,33.777886);(variation,>,99.679556);(date,11.8.2014)}
-{(id,473);(company, Zara);(value,=,23.249001);(variation,<=,77.184362);(date,28.7.2047)}
-{(id,474);(company, Microsoft);(value,<=,7.864620);(variation,<=,47.190771);(date,5.4.2046)}
-{(id,475);(company, Acer);(value,<=,7.696768);(variation,>,2.066103);(date,15.8.2021)}
-{(id,476);(company, Intel);(value,=,90.661336);(variation,=,39.741203);(date,16.7.2024)}
-
+[
+{ id : 372, company : 'Samsung', value : { symbol :=', value :84.170049}, variation : { symbol :<= , value :23.133030}, date : 25.2.2020}
+{ id : 373, company : 'AMD', value : { symbol :<=', value :68.944365}, variation : { symbol :>= , value :97.845393}, date : 18.7.2033}
+{ id : 374, company : 'Ferrari', value : { symbol :<=', value :30.225532}, variation : { symbol :<= , value :50.086978}, date : 1.1.2001}
+{ id : 375, company : 'Acer', value : { symbol :=', value :26.026185}, variation : { symbol :>= , value :51.136814}, date : 17.10.2037}
+{ id : 376, company : 'Mercedes', value : { symbol :=', value :54.963836}, variation : { symbol :> , value :12.778100}, date : 12.6.2012}
+{ id : 377, company : 'Telekom', value : { symbol :>=', value :76.186407}, variation : { symbol := , value :66.612751}, date : 5.3.2040}
+{ id : 378, company : 'Ubisoft', value : { symbol :>=', value :16.806543}, variation : { symbol :> , value :30.842006}, date : 30.2.2016}
+{ id : 379, company : 'Mercedes', value : { symbol :>=', value :66.817225}, variation : { symbol := , value :64.589373}, date : 6.4.2013}
+{ id : 380, company : 'Telekom', value : { symbol :=', value :61.497848}, variation : { symbol :> , value :9.662160}, date : 26.3.2035}
+{ id : 381, company : 'Asus', value : { symbol :>', value :51.368755}, variation : { symbol :>= , value :19.882809}, date : 15.5.2016}
+{ id : 382, company : 'VW', value : { symbol :>=', value :59.578234}, variation : { symbol :>= , value :77.858821}, date : 31.5.2001}
+{ id : 383, company : 'Bing', value : { symbol :<=', value :26.847133}, variation : { symbol :>= , value :99.301126}, date : 23.5.1999}
+{ id : 384, company : 'Electionics Arts', value : { symbol :>=', value :43.891720}, variation : { symbol :<= , value :24.796289}, date : 18.9.2023}
+{ id : 385, company : 'Acer', value : { symbol :<=', value :71.321757}, variation : { symbol :> , value :99.136326}, date : 4.10.2010}
+{ id : 386, company : 'Ubisoft', value : { symbol :<=', value :47.087008}, variation : { symbol :> , value :38.084048}, date : 1.12.2029}
+{ id : 387, company : 'Siemens', value : { symbol :<=', value :81.398968}, variation : { symbol := , value :82.686850}, date : 26.4.2002}
+{ id : 388, company : 'Mercedes', value : { symbol :>', value :39.124729}, variation : { symbol :> , value :41.065706}, date : 5.3.2034}
+{ id : 389, company : 'Zara', value : { symbol :=', value :9.747612}, variation : { symbol :> , value :17.725150}, date : 24.9.2040}
+{ id : 390, company : 'Nvidia', value : { symbol :>=', value :64.763329}, variation : { symbol :<= , value :30.335398}, date : 9.11.2040}
+{ id : 391, company : 'Siemens', value : { symbol :<=', value :2.603229}, variation : { symbol :<= , value :14.035463}, date : 8.2.2002}
+{ id : 392, company : 'SAP', value : { symbol :>', value :81.066317}, variation : { symbol :> , value :13.229774}, date : 9.1.2044}
+{ id : 393, company : 'Facebook', value : { symbol :=', value :37.235633}, variation : { symbol :>= , value :60.884426}, date : 11.3.2043}
+{ id : 394, company : 'AOL', value : { symbol :>=', value :94.906461}, variation : { symbol :<= , value :45.319987}, date : 30.11.2046}
+{ id : 395, company : 'Samsung', value : { symbol :>=', value :59.486679}, variation : { symbol :<= , value :64.525285}, date : 29.10.2046}
+{ id : 396, company : 'Asus', value : { symbol :<=', value :0.448622}, variation : { symbol := , value :67.928098}, date : 26.5.2000}
+{ id : 397, company : 'Sharp', value : { symbol :<=', value :21.237831}, variation : { symbol :<= , value :85.711234}, date : 27.12.2028}
+{ id : 398, company : 'Zara', value : { symbol :<=', value :16.681417}, variation : { symbol :>= , value :45.606861}, date : 18.7.2029}
+{ id : 399, company : 'Cosmote', value : { symbol :=', value :17.935728}, variation : { symbol := , value :77.187414}, date : 1.1.2000}
+{ id : 400, company : 'Acer', value : { symbol :>', value :24.887844}, variation : { symbol :>= , value :3.665273}, date : 26.8.2021}
+{ id : 401, company : 'Nvidia', value : { symbol :>=', value :26.084170}, variation : { symbol :> , value :21.189001}, date : 16.3.2023}
+{ id : 402, company : 'Electionics Arts', value : { symbol :>', value :6.152532}, variation : { symbol := , value :65.645314}, date : 22.8.2043}
+{ id : 403, company : 'Samsung', value : { symbol :>', value :40.726951}, variation : { symbol :> , value :66.945402}, date : 24.3.2007}
+{ id : 404, company : 'Nvidia', value : { symbol :>', value :78.868984}, variation : { symbol :>= , value :90.832240}, date : 15.5.2044}
+{ id : 405, company : 'Ubisoft', value : { symbol :=', value :12.979522}, variation : { symbol := , value :68.172246}, date : 21.5.2027}
+{ id : 406, company : 'Nvidia', value : { symbol :=', value :36.234626}, variation : { symbol :> , value :11.755730}, date : 3.10.2009}
+{ id : 407, company : 'Amazon', value : { symbol :>', value :87.502670}, variation : { symbol :<= , value :20.584735}, date : 19.11.2024}
+{ id : 408, company : 'Samsung', value : { symbol :>=', value :83.754997}, variation : { symbol :> , value :71.687979}, date : 3.10.2025}
+{ id : 409, company : 'AMD', value : { symbol :=', value :40.009766}, variation : { symbol :<= , value :99.392682}, date : 25.1.2011}
+{ id : 410, company : 'Zeiss', value : { symbol :>', value :76.732688}, variation : { symbol := , value :62.138737}, date : 22.8.2023}
+{ id : 411, company : 'Siemens', value : { symbol :>', value :14.774010}, variation : { symbol :>= , value :96.783349}, date : 4.5.2031}
+{ id : 412, company : 'Ferrari', value : { symbol :=', value :57.780694}, variation : { symbol :>= , value :60.368664}, date : 4.11.2045}
+{ id : 413, company : 'Microsoft', value : { symbol :>', value :62.126530}, variation : { symbol :<= , value :59.447005}, date : 17.12.2013}
+{ id : 414, company : 'VW', value : { symbol :>=', value :94.320505}, variation : { symbol :>= , value :66.869106}, date : 17.3.2046}
+{ id : 415, company : 'Bing', value : { symbol :<=', value :75.942259}, variation : { symbol :> , value :26.068911}, date : 1.2.2027}
+{ id : 416, company : 'SwissArmy', value : { symbol :<=', value :16.061892}, variation : { symbol :<= , value :42.881558}, date : 9.9.2001}
+{ id : 417, company : 'HP', value : { symbol :=', value :31.159398}, variation : { symbol := , value :64.821314}, date : 24.9.2044}
+{ id : 418, company : 'Sharp', value : { symbol :>', value :52.543718}, variation : { symbol :<= , value :47.889645}, date : 29.2.2012}
+{ id : 419, company : 'Mercedes', value : { symbol :>', value :21.271401}, variation : { symbol :>= , value :10.867641}, date : 8.2.2034}
+{ id : 420, company : 'Microsoft', value : { symbol :<=', value :70.586261}, variation : { symbol :>= , value :77.120273}, date : 12.12.2013}
+{ id : 421, company : 'Microsoft', value : { symbol :>=', value :95.822016}, variation : { symbol :> , value :3.869747}, date : 12.5.2033}
+{ id : 422, company : 'Ferrari', value : { symbol :>', value :11.828974}, variation : { symbol :>= , value :99.032563}, date : 5.2.2027}
+{ id : 423, company : 'Zara', value : { symbol :>=', value :97.909482}, variation : { symbol :>= , value :25.473800}, date : 24.4.2041}
+{ id : 424, company : 'Nvidia', value : { symbol :>', value :30.213324}, variation : { symbol :<= , value :92.837306}, date : 11.3.2020}
+{ id : 425, company : 'AOL', value : { symbol :=', value :1.687674}, variation : { symbol :<= , value :36.820582}, date : 18.4.2031}
+{ id : 426, company : 'Amazon', value : { symbol :>=', value :29.480880}, variation : { symbol := , value :85.985900}, date : 26.11.2013}
+{ id : 427, company : 'Bing', value : { symbol :<=', value :49.870296}, variation : { symbol := , value :16.046632}, date : 28.9.2008}
+{ id : 428, company : 'Siemens', value : { symbol :=', value :0.680563}, variation : { symbol := , value :91.671499}, date : 10.11.2031}
+{ id : 429, company : 'Facebook', value : { symbol :>', value :91.219825}, variation : { symbol :>= , value :95.779290}, date : 19.1.2010}
+{ id : 430, company : 'Sharp', value : { symbol :>', value :59.669790}, variation : { symbol :> , value :46.330149}, date : 19.8.2016}
+{ id : 431, company : 'Amazon', value : { symbol :>=', value :18.048647}, variation : { symbol :>= , value :0.631733}, date : 27.5.2018}
+{ id : 432, company : 'Nvidia', value : { symbol :=', value :84.606464}, variation : { symbol :<= , value :47.135838}, date : 18.7.2027}
+{ id : 433, company : 'Nokia', value : { symbol :>', value :3.738517}, variation : { symbol :>= , value :84.722434}, date : 28.5.2011}
+{ id : 434, company : 'Intel', value : { symbol :=', value :53.447066}, variation : { symbol := , value :89.510788}, date : 12.5.2000}
+{ id : 435, company : 'Nvidia', value : { symbol :>', value :40.217292}, variation : { symbol :> , value :69.148839}, date : 10.3.2022}
+{ id : 436, company : 'Bing', value : { symbol :>', value :81.466109}, variation : { symbol :> , value :4.611347}, date : 16.12.2006}
+{ id : 437, company : 'Asus', value : { symbol :=', value :75.463118}, variation : { symbol :>= , value :79.506821}, date : 3.11.2045}
+{ id : 438, company : 'VW', value : { symbol :>', value :58.735923}, variation : { symbol :<= , value :96.850490}, date : 4.7.2002}
+{ id : 439, company : 'Zeiss', value : { symbol :<=', value :51.014740}, variation : { symbol := , value :83.385723}, date : 27.11.2040}
+{ id : 440, company : 'Sharp', value : { symbol :<=', value :87.633900}, variation : { symbol :> , value :81.365398}, date : 24.5.2042}
+{ id : 441, company : 'AOL', value : { symbol :<=', value :39.463485}, variation : { symbol :<= , value :27.860347}, date : 28.12.2043}
+{ id : 442, company : 'Cosmote', value : { symbol :<=', value :20.337535}, variation : { symbol :<= , value :21.546068}, date : 31.2.2028}
+{ id : 443, company : 'Blizzard', value : { symbol :=', value :81.960509}, variation : { symbol := , value :77.010407}, date : 10.6.2016}
+{ id : 444, company : 'Ferrari', value : { symbol :<=', value :96.340831}, variation : { symbol := , value :66.527299}, date : 2.3.2023}
+{ id : 445, company : 'Cosmote', value : { symbol :=', value :25.702689}, variation : { symbol := , value :49.391156}, date : 7.11.2008}
+{ id : 446, company : 'Cosmote', value : { symbol :>=', value :79.927976}, variation : { symbol :<= , value :88.677633}, date : 11.9.2001}
+{ id : 447, company : 'VW', value : { symbol :=', value :61.449019}, variation : { symbol :> , value :55.561998}, date : 23.12.2011}
+{ id : 448, company : 'Samsung', value : { symbol :=', value :97.698904}, variation : { symbol :>= , value :21.109653}, date : 10.2.2010}
+{ id : 449, company : 'Allview', value : { symbol :>', value :61.009552}, variation : { symbol :<= , value :35.575426}, date : 5.1.2013}
+{ id : 450, company : 'Amazon', value : { symbol :<=', value :76.052126}, variation : { symbol :> , value :95.187231}, date : 21.9.2021}
+{ id : 451, company : 'Microsoft', value : { symbol :<=', value :14.746544}, variation : { symbol :<= , value :96.465957}, date : 6.12.2008}
+{ id : 452, company : 'AOL', value : { symbol :>=', value :78.695029}, variation : { symbol :<= , value :78.002258}, date : 17.1.2037}
+{ id : 453, company : 'Electionics Arts', value : { symbol :>', value :69.087802}, variation : { symbol :>= , value :49.766533}, date : 29.6.2000}
+{ id : 454, company : 'HP', value : { symbol :=', value :44.138920}, variation : { symbol :>= , value :9.897153}, date : 17.5.2002}
+{ id : 455, company : 'Bing', value : { symbol :>=', value :64.003418}, variation : { symbol :> , value :49.006623}, date : 1.11.2011}
+{ id : 456, company : 'Acer', value : { symbol :>', value :23.197119}, variation : { symbol :>= , value :41.959899}, date : 30.12.2003}
+{ id : 457, company : 'Intel', value : { symbol :=', value :70.522172}, variation : { symbol :> , value :27.198096}, date : 27.9.2034}
+{ id : 458, company : 'Allview', value : { symbol :<=', value :16.486099}, variation : { symbol :> , value :73.512986}, date : 26.10.2032}
+{ id : 459, company : 'Zeiss', value : { symbol :=', value :28.229621}, variation : { symbol := , value :34.351634}, date : 21.12.2042}
+{ id : 460, company : 'Acer', value : { symbol :>', value :11.935789}, variation : { symbol := , value :89.623707}, date : 31.1.2033}
+{ id : 461, company : 'SwissArmy', value : { symbol :<=', value :82.769250}, variation : { symbol :> , value :74.974822}, date : 17.6.2046}
+{ id : 462, company : 'Intel', value : { symbol :<=', value :22.272408}, variation : { symbol := , value :98.602252}, date : 13.4.2017}
+{ id : 463, company : 'Microsoft', value : { symbol :=', value :23.325297}, variation : { symbol := , value :45.548875}, date : 23.12.2045}
+{ id : 464, company : 'Zara', value : { symbol :<=', value :22.528764}, variation : { symbol := , value :69.499802}, date : 4.9.2016}
+{ id : 465, company : 'AMD', value : { symbol :=', value :20.151372}, variation : { symbol :>= , value :72.069460}, date : 19.6.2040}
+{ id : 466, company : 'AMD', value : { symbol :=', value :87.545396}, variation : { symbol := , value :69.612720}, date : 14.6.2037}
+{ id : 467, company : 'Yahoo', value : { symbol :>', value :62.056337}, variation : { symbol := , value :47.511216}, date : 31.6.2033}
+{ id : 468, company : 'Intel', value : { symbol :>', value :29.462569}, variation : { symbol :<= , value :1.974548}, date : 2.11.2017}
+{ id : 469, company : 'Telekom', value : { symbol :>', value :93.890194}, variation : { symbol := , value :69.344157}, date : 31.1.2040}
+{ id : 470, company : 'Acer', value : { symbol :>=', value :35.227515}, variation : { symbol := , value :42.869350}, date : 6.5.2038}
+{ id : 471, company : 'Facebook', value : { symbol :=', value :54.063540}, variation : { symbol :> , value :77.028718}, date : 12.7.2042}
+{ id : 472, company : 'Electionics Arts', value : { symbol :>', value :4.092532}, variation : { symbol :> , value :79.311502}, date : 20.1.2019}
+{ id : 473, company : 'Ubisoft', value : { symbol :>', value :12.048708}, variation : { symbol :>= , value :89.522996}, date : 19.6.2042}
+{ id : 474, company : 'Allview', value : { symbol :>=', value :85.122227}, variation : { symbol :>= , value :46.568194}, date : 31.8.2038}
+{ id : 475, company : 'Blizzard', value : { symbol :<=', value :5.868709}, variation : { symbol :<= , value :42.768639}, date : 31.11.2024}
+{ id : 476, company : 'Samsung', value : { symbol :>=', value :14.667196}, variation : { symbol :>= , value :65.645314}, date : 25.11.2024}
+{ id : 477, company : 'VW', value : { symbol :=', value :79.601428}, variation : { symbol :>= , value :27.210303}, date : 21.10.2009}
+{ id : 478, company : 'Microsoft', value : { symbol :>=', value :53.898740}, variation : { symbol :<= , value :80.788598}, date : 16.7.2026}
+{ id : 479, company : 'SAP', value : { symbol :=', value :20.868557}, variation : { symbol :> , value :25.278481}, date : 31.1.2006}
+{ id : 480, company : 'Ferrari', value : { symbol :>', value :26.288644}, variation : { symbol :> , value :96.987823}, date : 23.2.2007}
+{ id : 481, company : 'Asus', value : { symbol :>=', value :98.364208}, variation : { symbol :> , value :48.893704}, date : 15.9.2027}
+{ id : 482, company : 'Amazon', value : { symbol :=', value :55.113376}, variation : { symbol :<= , value :17.468795}, date : 13.8.2011}
+{ id : 483, company : 'Bing', value : { symbol :>', value :99.325541}, variation : { symbol := , value :76.970733}, date : 27.6.2033}
+{ id : 484, company : 'Ubisoft', value : { symbol :=', value :0.952177}, variation : { symbol :<= , value :81.218909}, date : 24.2.2011}
+{ id : 485, company : 'Samsung', value : { symbol :=', value :67.049165}, variation : { symbol :>= , value :92.919706}, date : 15.2.2000}
+{ id : 486, company : 'Microsoft', value : { symbol :<=', value :99.191259}, variation : { symbol :> , value :0.442518}, date : 19.5.2022}
+{ id : 487, company : 'Electionics Arts', value : { symbol :>', value :38.386181}, variation : { symbol := , value :22.135075}, date : 3.5.2020}
+{ id : 488, company : 'Cosmote', value : { symbol :>', value :97.515793}, variation : { symbol := , value :98.104801}, date : 10.6.2001}
+{ id : 489, company : 'Cosmote', value : { symbol :=', value :81.240272}, variation : { symbol :<= , value :69.518113}, date : 10.5.2005}
+{ id : 490, company : 'Orange', value : { symbol :<=', value :93.426313}, variation : { symbol :>= , value :45.402387}, date : 4.2.2008}
+{ id : 491, company : 'Yahoo', value : { symbol :=', value :32.065798}, variation : { symbol :> , value :56.944487}, date : 13.3.2001}
+{ id : 492, company : 'AOL', value : { symbol :>=', value :71.715445}, variation : { symbol :<= , value :99.282815}, date : 1.6.2011}
+{ id : 493, company : 'Zara', value : { symbol :=', value :33.387249}, variation : { symbol :> , value :60.795923}, date : 24.7.2038}
+{ id : 494, company : 'Zeiss', value : { symbol :>', value :41.993469}, variation : { symbol :>= , value :39.921262}, date : 6.4.2040}
+{ id : 495, company : 'Siemens', value : { symbol :<=', value :71.263771}, variation : { symbol :>= , value :49.436934}, date : 22.3.2036}
+{ id : 496, company : 'Amazon', value : { symbol :>', value :76.168096}, variation : { symbol :> , value :8.255257}, date : 22.4.2047}
+{ id : 497, company : 'Allview', value : { symbol :<=', value :12.823878}, variation : { symbol :<= , value :20.731223}, date : 26.8.2014}
+{ id : 498, company : 'Facebook', value : { symbol :<=', value :45.948668}, variation : { symbol := , value :43.452254}, date : 4.3.2006}
+{ id : 499, company : 'AMD', value : { symbol :>', value :43.745231}, variation : { symbol := , value :39.530625}, date : 30.2.2048}
+{ id : 500, company : 'Orange', value : { symbol :>=', value :60.356456}, variation : { symbol :>= , value :20.416883}, date : 7.10.2032}
+{ id : 501, company : 'Blizzard', value : { symbol :>=', value :5.758843}, variation : { symbol :>= , value :75.182348}, date : 15.3.2020}
+{ id : 502, company : 'Blizzard', value : { symbol :<=', value :3.210547}, variation : { symbol :>= , value :87.313456}, date : 14.2.2019}
+{ id : 503, company : 'Nokia', value : { symbol :>', value :34.153264}, variation : { symbol :>= , value :39.017914}, date : 11.12.2034}
+{ id : 504, company : 'Cosmote', value : { symbol :<=', value :70.644246}, variation : { symbol :>= , value :3.027436}, date : 23.8.2013}
+{ id : 505, company : 'SAP', value : { symbol :<=', value :95.272683}, variation : { symbol :>= , value :21.872616}, date : 2.9.2013}
+{ id : 506, company : 'Zara', value : { symbol :=', value :8.581805}, variation : { symbol :> , value :74.703207}, date : 26.5.2007}
+{ id : 507, company : 'Electionics Arts', value : { symbol :>', value :24.005860}, variation : { symbol :> , value :31.565294}, date : 6.4.2012}
+{ id : 508, company : 'SwissArmy', value : { symbol :>=', value :50.270089}, variation : { symbol := , value :95.220801}, date : 13.3.2006}
+{ id : 509, company : 'VW', value : { symbol :=', value :61.317789}, variation : { symbol :<= , value :30.411695}, date : 31.9.2021}
+{ id : 510, company : 'Asus', value : { symbol :>=', value :53.740043}, variation : { symbol := , value :80.697043}, date : 4.6.2024}
+{ id : 511, company : 'Electionics Arts', value : { symbol :>', value :91.702017}, variation : { symbol :> , value :72.716453}, date : 31.7.2020}
+{ id : 512, company : 'Ferrari', value : { symbol :>', value :39.344462}, variation : { symbol :> , value :8.001953}, date : 22.11.2047}
+{ id : 513, company : 'LG', value : { symbol :<=', value :80.727561}, variation : { symbol := , value :42.277291}, date : 24.8.2040}
+{ id : 514, company : 'Nokia', value : { symbol :>=', value :27.231666}, variation : { symbol :> , value :52.241585}, date : 7.2.2038}
+{ id : 515, company : 'Ubisoft', value : { symbol :<=', value :12.503433}, variation : { symbol :>= , value :89.886166}, date : 12.12.2014}
+{ id : 516, company : 'SwissArmy', value : { symbol :>=', value :74.858852}, variation : { symbol := , value :24.265267}, date : 5.11.2042}
+{ id : 517, company : 'Blizzard', value : { symbol :>=', value :27.204199}, variation : { symbol :>= , value :70.821253}, date : 6.6.2038}
+{ id : 518, company : 'Sharp', value : { symbol :>=', value :14.481033}, variation : { symbol :> , value :8.160649}, date : 12.8.2043}
+{ id : 519, company : 'Blizzard', value : { symbol :>', value :58.555864}, variation : { symbol :<= , value :82.363353}, date : 6.3.2023}
+{ id : 520, company : 'Electionics Arts', value : { symbol :=', value :90.670492}, variation : { symbol :>= , value :98.770104}, date : 15.3.2018}
+{ id : 521, company : 'AOL', value : { symbol :>', value :71.337016}, variation : { symbol := , value :1.275674}, date : 2.2.2004}
+{ id : 522, company : 'Yahoo', value : { symbol :=', value :97.790460}, variation : { symbol :<= , value :39.155248}, date : 25.6.2049}
+{ id : 523, company : 'LG', value : { symbol :>', value :98.883023}, variation : { symbol :> , value :21.320231}, date : 11.10.2045}
+{ id : 524, company : 'Zara', value : { symbol :=', value :17.514573}, variation : { symbol :<= , value :58.143864}, date : 16.4.2022}
+{ id : 525, company : 'Sharp', value : { symbol :>=', value :80.578021}, variation : { symbol := , value :90.749840}, date : 15.12.2046}
+{ id : 526, company : 'Zara', value : { symbol :<=', value :56.331065}, variation : { symbol :> , value :7.794427}, date : 30.4.2040}
+{ id : 527, company : 'Cosmote', value : { symbol :>', value :99.368267}, variation : { symbol := , value :49.800104}, date : 30.11.2049}
+{ id : 528, company : 'SAP', value : { symbol :=', value :83.013398}, variation : { symbol :<= , value :0.906400}, date : 11.2.2022}
+{ id : 529, company : 'Ferrari', value : { symbol :<=', value :19.251076}, variation : { symbol := , value :68.211921}, date : 18.6.2042}
+{ id : 530, company : 'Acer', value : { symbol :<=', value :66.154973}, variation : { symbol :> , value :48.530534}, date : 14.11.2017}
+{ id : 531, company : 'Orange', value : { symbol :>', value :22.785119}, variation : { symbol :<= , value :82.714316}, date : 10.2.2022}
+{ id : 532, company : 'VW', value : { symbol :>=', value :11.645863}, variation : { symbol :> , value :97.445601}, date : 5.9.2005}
+{ id : 533, company : 'Cosmote', value : { symbol :>=', value :48.576312}, variation : { symbol := , value :34.525590}, date : 22.5.2042}
+{ id : 534, company : 'Ubisoft', value : { symbol :=', value :0.186163}, variation : { symbol :<= , value :67.680898}, date : 1.7.2004}
+{ id : 535, company : 'SwissArmy', value : { symbol :<=', value :28.782006}, variation : { symbol :<= , value :6.857509}, date : 26.12.2025}
+{ id : 536, company : 'Acer', value : { symbol :>', value :24.777978}, variation : { symbol :>= , value :90.014344}, date : 7.4.2030}
+{ id : 537, company : 'Cosmote', value : { symbol :>', value :26.621296}, variation : { symbol :>= , value :62.416456}, date : 12.8.2015}
+{ id : 538, company : 'Mercedes', value : { symbol :<=', value :28.226569}, variation : { symbol := , value :43.449202}, date : 20.11.2045}
+{ id : 539, company : 'AOL', value : { symbol :=', value :73.873104}, variation : { symbol := , value :80.898465}, date : 1.9.2037}
+{ id : 540, company : 'Electionics Arts', value : { symbol :>', value :40.644551}, variation : { symbol :>= , value :92.748802}, date : 2.3.2024}
+{ id : 541, company : 'Cosmote', value : { symbol :<=', value :8.349864}, variation : { symbol := , value :96.490371}, date : 10.8.2000}
+{ id : 542, company : 'SAP', value : { symbol :>=', value :16.946928}, variation : { symbol := , value :25.907163}, date : 10.4.2001}
+{ id : 543, company : 'Orange', value : { symbol :>', value :11.447493}, variation : { symbol :> , value :35.374004}, date : 24.4.2008}
+{ id : 544, company : 'Telekom', value : { symbol :>=', value :74.361400}, variation : { symbol := , value :91.665395}, date : 11.3.2036}
+{ id : 545, company : 'Nvidia', value : { symbol :>', value :45.594653}, variation : { symbol :<= , value :53.227332}, date : 8.12.2009}
+{ id : 546, company : 'HP', value : { symbol :<=', value :29.902036}, variation : { symbol :<= , value :37.000641}, date : 10.9.2008}
+{ id : 547, company : 'SwissArmy', value : { symbol :>', value :91.784417}, variation : { symbol :<= , value :72.710349}, date : 27.2.2008}
+{ id : 548, company : 'Zara', value : { symbol :>', value :37.910092}, variation : { symbol :> , value :44.642476}, date : 27.12.2035}
+{ id : 549, company : 'Zara', value : { symbol :>', value :87.057100}, variation : { symbol :>= , value :20.978423}, date : 5.6.2020}
+{ id : 550, company : 'SwissArmy', value : { symbol :>', value :27.512436}, variation : { symbol := , value :70.558794}, date : 1.7.2020}
+{ id : 551, company : 'HP', value : { symbol :=', value :62.016663}, variation : { symbol :>= , value :67.189550}, date : 11.2.2027}
+{ id : 552, company : 'SwissArmy', value : { symbol :=', value :40.156255}, variation : { symbol :> , value :81.450850}, date : 18.1.2011}
+{ id : 553, company : 'Yahoo', value : { symbol :>', value :78.319651}, variation : { symbol :>= , value :59.978027}, date : 7.6.2035}
+{ id : 554, company : 'Allview', value : { symbol :>', value :67.082736}, variation : { symbol := , value :92.272713}, date : 31.10.2009}
+{ id : 555, company : 'SwissArmy', value : { symbol :>=', value :66.170232}, variation : { symbol :> , value :64.983062}, date : 15.9.2027}
+{ id : 556, company : 'Electionics Arts', value : { symbol :>', value :86.840419}, variation : { symbol :<= , value :3.714103}, date : 19.6.2023}
+{ id : 557, company : 'Intel', value : { symbol :=', value :61.833552}, variation : { symbol :<= , value :2.325510}, date : 21.2.2024}
+{ id : 558, company : 'Zeiss', value : { symbol :>', value :2.783288}, variation : { symbol :<= , value :39.716788}, date : 27.5.2023}
+{ id : 559, company : 'Siemens', value : { symbol :=', value :45.133824}, variation : { symbol :>= , value :84.133427}, date : 18.10.2038}
+{ id : 560, company : 'AMD', value : { symbol :<=', value :80.571917}, variation : { symbol := , value :84.954375}, date : 8.9.2000}
+{ id : 561, company : 'Nvidia', value : { symbol :>=', value :76.940214}, variation : { symbol := , value :52.006592}, date : 31.11.2029}
+{ id : 562, company : 'LG', value : { symbol :<=', value :85.665456}, variation : { symbol :> , value :22.345653}, date : 18.4.2025}
+{ id : 563, company : 'Mercedes', value : { symbol :=', value :36.677145}, variation : { symbol :>= , value :14.554277}, date : 5.2.2011}
+{ id : 564, company : 'Mercedes', value : { symbol :>=', value :20.834986}, variation : { symbol := , value :70.552690}, date : 29.8.2045}
+{ id : 565, company : 'Yahoo', value : { symbol :<=', value :59.837642}, variation : { symbol :<= , value :84.871975}, date : 23.11.2010}
+{ id : 566, company : 'Allview', value : { symbol :>', value :63.652455}, variation : { symbol :> , value :21.475875}, date : 2.4.2000}
+{ id : 567, company : 'Nvidia', value : { symbol :=', value :75.447859}, variation : { symbol := , value :18.042543}, date : 30.5.2019}
+{ id : 568, company : 'AMD', value : { symbol :<=', value :3.994873}, variation : { symbol :>= , value :77.767266}, date : 7.7.2026}
+{ id : 569, company : 'Telekom', value : { symbol :<=', value :43.607898}, variation : { symbol :> , value :48.649556}, date : 21.6.2001}
+{ id : 570, company : 'Sharp', value : { symbol :>', value :81.548509}, variation : { symbol :<= , value :90.310373}, date : 16.9.2005}
+{ id : 571, company : 'Sharp', value : { symbol :<=', value :92.962432}, variation : { symbol :>= , value :28.263192}, date : 23.2.2003}
+]
 
 ---Subscriptions---
 
-{(id,477);(value,>,,20.722068);(variantion,>,53.135777);}
-{(id,478);(comapny,>=,Acer);}
-{(id,479);(comapny,=,Nvidia);(variantion,>=,75.865963);}
-{(id,480);(comapny,>=,Sharp);(variantion,=,18.024232);}
-{(id,481);(variantion,>=,47.209082);}
-{(id,482);(comapny,<=,Ubisoft);(value,>,,19.949950);}
-{(id,483);(value,>,,37.522507);}
-{(id,484);(comapny,>,Nokia);(value,>,,56.889554);}
-{(id,486);(comapny,<=,Cosmote);(variantion,<=,27.381207);}
-{(id,487);(variantion,=,8.990753);}
-{(id,488);(comapny,<=,Amazon);(value,>,,97.222816);(variantion,=,10.660115);}
-{(id,489);(value,>,,25.815607);(variantion,<=,96.670431);}
-{(id,490);(comapny,>=,Zeiss);(value,>,,37.495041);(variantion,>=,31.327250);}
-{(id,491);(comapny,>,Telekom);(variantion,<=,22.852260);}
-{(id,492);(comapny,<=,Acer);(value,>,,24.079104);}
-{(id,494);(comapny,>=,Mercedes);}
-{(id,495);(value,>,,73.036897);(variantion,>,83.620716);}
-{(id,496);(comapny,>,Samsung);}
-{(id,497);(comapny,>=,Mercedes);(value,>,,23.957030);}
-{(id,498);(comapny,<=,Asus);(variantion,=,37.214270);}
-{(id,499);(variantion,>=,91.988891);}
-{(id,500);(variantion,=,20.343638);}
-{(id,501);(comapny,<=,Ferrari);}
-{(id,503);(comapny,<=,Nokia);(variantion,>,25.074007);}
-{(id,504);(comapny,=,Ubisoft);}
-{(id,505);(variantion,<=,10.153508);}
-{(id,506);(value,>,,82.192450);}
-{(id,509);(comapny,>=,SAP);(value,>,,68.370617);(variantion,<=,97.650075);}
-{(id,510);(comapny,<=,Microsoft);(variantion,>,72.933134);}
-{(id,511);(comapny,>,Siemens);(value,>,,7.364116);}
-{(id,512);(variantion,>,37.498093);}
-{(id,513);(comapny,=,Orange);(value,>,,59.993286);}
-{(id,514);(variantion,<=,34.589679);}
-{(id,515);(comapny,>,Ferrari);(value,>,,20.929594);}
-{(id,517);(comapny,=,AMD);(variantion,=,78.572954);}
-{(id,518);(comapny,=,Asus);(value,>,,15.219581);}
-{(id,519);(value,>,,55.061495);(variantion,>,37.220374);}
-{(id,520);(value,>,,40.946684);}
-{(id,521);(comapny,<=,Mercedes);(value,>,,12.305063);}
-{(id,522);(value,>,,49.031037);}
-{(id,523);(comapny,>,Mercedes);(variantion,>,65.782647);}
-{(id,524);(comapny,=,VW);(value,>,,33.079012);}
-{(id,525);(comapny,>=,Electionics Arts);}
-{(id,526);(value,>,,3.775140);(variantion,>=,73.281045);}
-{(id,527);(value,>,,72.484512);}
-{(id,528);(comapny,<=,Mercedes);}
-{(id,530);(variantion,>=,91.134373);}
-{(id,531);(comapny,=,Mercedes);(value,>,,53.953673);}
-{(id,532);(comapny,>=,AOL);}
-{(id,533);(comapny,>=,Blizzard);(value,>,,97.506638);}
-{(id,534);(value,>,,75.576037);(variantion,<=,97.882015);}
-{(id,535);(comapny,=,Asus);}
-{(id,536);(variantion,>,8.603168);}
-{(id,537);(variantion,>=,54.759362);}
-{(id,538);(comapny,>,Bing);(value,>,,74.523148);}
-{(id,539);(comapny,=,Zeiss);(value,>,,44.398328);(variantion,>=,21.643727);}
-{(id,540);(comapny,>,Bing);(variantion,>,86.089663);}
-{(id,541);(comapny,=,Samsung);}
-{(id,542);(value,>,,54.176458);(variantion,>,56.035035);}
-{(id,543);(comapny,=,VW);(value,>,,45.152135);(variantion,=,25.754570);}
-{(id,544);(value,>,,93.398846);}
-{(id,546);(variantion,<=,20.429090);}
-{(id,547);(comapny,=,Nokia);(value,>,,15.598010);(variantion,=,15.836055);}
-{(id,548);(comapny,>=,Acer);(variantion,=,92.413099);}
-{(id,549);(comapny,>,LG);(value,>,,76.973785);}
-{(id,550);(value,>,,13.217566);}
-{(id,551);(comapny,<=,Telekom);(variantion,<=,3.091525);}
-{(id,552);(comapny,>=,Allview);(variantion,=,79.934080);}
-{(id,553);(comapny,>=,Ubisoft);(value,>,,12.274545);(variantion,>=,13.480026);}
-{(id,554);(comapny,>=,VW);(variantion,<=,66.219062);}
-{(id,555);(comapny,=,Microsoft);}
-{(id,556);(value,>,,36.347545);(variantion,>=,3.149510);}
-{(id,558);(value,>,,11.636708);}
-{(id,559);(variantion,>,24.430067);}
-{(id,560);(variantion,<=,48.890652);}
-{(id,561);(variantion,>=,86.593219);}
-{(id,562);(variantion,=,26.120792);}
-{(id,563);(comapny,>=,Asus);(value,>,,70.155950);}
-{(id,564);(comapny,>,Bing);}
-{(id,565);(variantion,=,85.253456);}
-{(id,566);(comapny,>,Amazon);(value,>,,24.744407);(variantion,=,32.502213);}
-{(id,567);(comapny,<=,AMD);(value,>,,87.893307);}
-{(id,568);(comapny,=,LG);(variantion,>=,54.258858);}
-{(id,570);(value,>,,54.197821);(variantion,<=,19.724113);}
-{(id,571);(comapny,>,Yahoo);(variantion,<=,30.167547);}
-{(id,572);(comapny,>=,Sharp);}
-{(id,575);(variantion,<=,55.720695);}
-{(id,576);(comapny,>,Orange);}
-{(id,579);(comapny,>,Sharp);(variantion,>=,36.649678);}
-{(id,580);(comapny,<=,SwissArmy);}
-{(id,581);(comapny,>,Samsung);}
-{(id,582);(variantion,>=,38.755455);}
-{(id,584);(comapny,=,AOL);(variantion,>,92.822047);}
-{(id,585);(comapny,<=,HP);}
-{(id,586);(comapny,<=,Ubisoft);(variantion,=,95.880001);}
-{(id,587);(comapny,<=,SwissArmy);}
-{(id,589);(variantion,<=,25.318155);}
-{(id,595);(variantion,<=,79.259621);}
-{(id,596);(variantion,>=,42.017884);}
-{(id,600);(variantion,=,66.881314);}
-{(id,601);(variantion,>,56.340220);}
-{(id,602);(variantion,<=,3.991821);}
-{(id,603);(variantion,>=,55.345317);}
-{(id,604);(variantion,<=,35.926389);}
-{(id,609);(variantion,=,91.051973);}
-{(id,610);(variantion,<=,94.738609);}
-{(id,611);(variantion,>,88.753929);}
-{(id,613);(variantion,=,22.602008);}
-{(id,614);(variantion,>=,33.906064);}
-{(id,617);(variantion,>,52.223273);}
-{(id,618);(variantion,<=,75.707266);}
-{(id,621);(variantion,>,66.475417);}
-{(id,624);(variantion,<=,38.389233);}
-{(id,625);(variantion,=,35.740226);}
-{(id,626);(variantion,<=,54.335154);}
-{(id,628);(variantion,=,72.185430);}
-{(id,629);(variantion,=,63.316752);}
-{(id,631);(variantion,<=,14.590899);}
-{(id,632);(variantion,>,14.484085);}
-{(id,633);(variantion,>=,25.882748);}
-{(id,636);(variantion,>,40.064699);}
-{(id,637);(variantion,>=,14.462722);}
-{(id,639);(variantion,>=,51.451155);}
-{(id,642);(variantion,<=,41.126743);}
-{(id,644);(variantion,>,92.825098);}
-{(id,646);(variantion,>,63.380840);}
-{(id,649);(variantion,=,21.900082);}
-{(id,655);(variantion,>=,69.338054);}
-{(id,657);(variantion,<=,28.135014);}
-{(id,659);(variantion,=,44.633320);}
-{(id,660);(variantion,>,18.170721);}
-{(id,661);(variantion,<=,45.762505);}
-{(id,665);(variantion,>=,24.307993);}
-{(id,668);(variantion,=,79.641102);}
-{(id,669);(variantion,>,92.306284);}
-{(id,670);(variantion,>=,84.560686);}
-{(id,671);(variantion,<=,11.618397);}
-{(id,672);(variantion,>,63.438826);}
-{(id,674);(variantion,<=,19.333476);}
-{(id,675);(variantion,=,32.157353);}
-{(id,678);(variantion,=,41.810358);}
-{(id,680);(variantion,>,58.714560);}
-{(id,685);(variantion,>=,5.032502);}
+[
+{ id : 572, (variantion : { symbol : '<=',value : 95.736564},}
+{ id : 573, (value : { value : 56.587420,symbol : '<='}, (variantion : { symbol : '<=',value : 95.898312},}
+{ id : 574,  comapny : '<', AMD', (value : { value : 69.234291,symbol : '>='}, (variantion : { symbol : '<=',value : 50.877407},}
+{ id : 575, (value : { value : 65.163121,symbol : '<='}, (variantion : { symbol : '>=',value : 17.609180},}
+{ id : 576, (variantion : { symbol : '>',value : 45.780816},}
+{ id : 577, (value : { value : 16.373180,symbol : '='}, }
+{ id : 578,  comapny : '<', AOL', (value : { value : 45.570238,symbol : '<='}, }
+{ id : 579, (value : { value : 76.577044,symbol : '<='}, (variantion : { symbol : '=',value : 98.669393},}
+{ id : 580, (value : { value : 80.535295,symbol : '>='}, (variantion : { symbol : '>',value : 68.617817},}
+{ id : 581, (value : { value : 62.941374,symbol : '>='}, }
+{ id : 582, (variantion : { symbol : '<=',value : 27.610096},}
+{ id : 583,  comapny : '<', Mercedes', (variantion : { symbol : '<=',value : 14.435255},}
+{ id : 584,  comapny : '<', Ubisoft', (variantion : { symbol : '>',value : 10.943937},}
+{ id : 585,  comapny : '<', Asus', (value : { value : 73.421430,symbol : '<='}, (variantion : { symbol : '=',value : 22.699667},}
+{ id : 586, (value : { value : 86.266671,symbol : '>'}, }
+{ id : 587, (value : { value : 20.975372,symbol : '='}, (variantion : { symbol : '=',value : 83.483383},}
+{ id : 588, (variantion : { symbol : '=',value : 25.379192},}
+{ id : 589,  comapny : '<', VW', (value : { value : 83.120212,symbol : '>='}, (variantion : { symbol : '<=',value : 89.526048},}
+{ id : 590,  comapny : '<', Yahoo', (value : { value : 42.249825,symbol : '>'}, (variantion : { symbol : '>',value : 4.803613},}
+{ id : 591,  comapny : '<', Ferrari', (value : { value : 25.428022,symbol : '<='}, }
+{ id : 592,  comapny : '<', Ferrari', (value : { value : 17.184973,symbol : '<='}, }
+{ id : 593,  comapny : '<', AMD', (value : { value : 77.837458,symbol : '>'}, (variantion : { symbol : '>=',value : 69.325846},}
+{ id : 595, (value : { value : 18.851283,symbol : '>='}, }
+{ id : 597,  comapny : '<', Cosmote', (variantion : { symbol : '<=',value : 89.938047},}
+{ id : 598,  comapny : '<', Zeiss', (value : { value : 94.460891,symbol : '>='}, (variantion : { symbol : '>',value : 97.897275},}
+{ id : 599,  comapny : '<', Mercedes', (value : { value : 46.043275,symbol : '<='}, (variantion : { symbol : '>',value : 9.616382},}
+{ id : 600,  comapny : '<', Facebook', (value : { value : 34.229560,symbol : '>='}, }
+{ id : 601, (value : { value : 58.421583,symbol : '>'}, }
+{ id : 602,  comapny : '<', Blizzard', }
+{ id : 603, (variantion : { symbol : '>',value : 62.184515},}
+{ id : 606, (variantion : { symbol : '<=',value : 30.539872},}
+{ id : 607,  comapny : '<', Zara', (variantion : { symbol : '>',value : 59.010590},}
+{ id : 608,  comapny : '<', Bing', (variantion : { symbol : '>',value : 73.546556},}
+{ id : 609, (variantion : { symbol : '>',value : 10.074160},}
+{ id : 610, (value : { value : 65.382855,symbol : '='}, }
+{ id : 611,  comapny : '<', Bing', }
+{ id : 612,  comapny : '<', SwissArmy', (value : { value : 83.724479,symbol : '>'}, (variantion : { symbol : '=',value : 53.822443},}
+{ id : 613, (variantion : { symbol : '=',value : 6.045717},}
+{ id : 614,  comapny : '<', Nvidia', (value : { value : 6.543168,symbol : '='}, (variantion : { symbol : '>=',value : 18.774987},}
+{ id : 616,  comapny : '<', Facebook', }
+{ id : 617, (value : { value : 89.886166,symbol : '<='}, }
+{ id : 619, (variantion : { symbol : '<=',value : 71.562853},}
+{ id : 621, (value : { value : 20.242927,symbol : '>='}, }
+{ id : 622, (value : { value : 47.682119,symbol : '>'}, (variantion : { symbol : '>=',value : 82.091739},}
+{ id : 624, (value : { value : 26.917325,symbol : '>='}, (variantion : { symbol : '>=',value : 23.566393},}
+{ id : 625, (value : { value : 49.311808,symbol : '<='}, }
+{ id : 626, (value : { value : 35.187841,symbol : '>='}, (variantion : { symbol : '<=',value : 1.150548},}
+{ id : 627, (value : { value : 86.742759,symbol : '>'}, }
+{ id : 628, (variantion : { symbol : '>=',value : 48.707541},}
+{ id : 630, (variantion : { symbol : '>=',value : 24.533830},}
+{ id : 632, (variantion : { symbol : '<=',value : 61.732841},}
+{ id : 633, (variantion : { symbol : '<=',value : 96.807764},}
+{ id : 635, (variantion : { symbol : '<=',value : 68.800928},}
+{ id : 639, (variantion : { symbol : '>=',value : 18.140202},}
+{ id : 641, (variantion : { symbol : '>=',value : 67.796869},}
+{ id : 642, (variantion : { symbol : '<=',value : 89.272744},}
+{ id : 643, (variantion : { symbol : '=',value : 52.174444},}
+{ id : 644, (variantion : { symbol : '=',value : 31.449324},}
+{ id : 649, (variantion : { symbol : '=',value : 39.994507},}
+{ id : 650, (variantion : { symbol : '>',value : 30.964080},}
+{ id : 655, (variantion : { symbol : '<=',value : 98.251289},}
+{ id : 656, (variantion : { symbol : '>=',value : 34.144108},}
+{ id : 657, (variantion : { symbol : '>=',value : 71.950438},}
+{ id : 659, (variantion : { symbol : '=',value : 26.541948},}
+{ id : 661, (variantion : { symbol : '=',value : 70.174261},}
+{ id : 663, (variantion : { symbol : '=',value : 89.275796},}
+{ id : 665, (variantion : { symbol : '<=',value : 57.875301},}
+{ id : 666, (variantion : { symbol : '>=',value : 95.754875},}
+]
