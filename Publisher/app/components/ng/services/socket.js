@@ -8,7 +8,7 @@ angular.module('PublisherApp')
 
        ) {
            
-           var socket = io.connect('http://localhost:3000');
+           var socket = io.connect('localhost:3000');
          
            return socket;
        }

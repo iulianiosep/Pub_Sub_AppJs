@@ -6,12 +6,11 @@ var
     AWS = require("aws-sdk");
 
 AWS.config = new AWS.Config();
-AWS.config.accessKeyId = "AccessKey";
-AWS.config.secretAccessKey = "SecretAccessKey";
+AWS.config.accessKeyId = "****";
+AWS.config.secretAccessKey = "**+**";
 
 AWS.config.update({
-    region: "us-west-2",
-    endpoint: "http://localhost:8000"
+    region: "us-west-1"
 });
 config = {
     AWS: AWS

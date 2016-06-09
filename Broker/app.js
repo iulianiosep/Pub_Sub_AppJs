@@ -47,8 +47,8 @@ app.use(function (req, res, next) {
 
 app.use('/', routes);
 app.use('/users', users);
- app.use('/publisher', publisher);
-//app.use('/subscriber', subscriber);
+app.use('/publisher', publisher);
+app.use('/subscriber', subscriber);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {

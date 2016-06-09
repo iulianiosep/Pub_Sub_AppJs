@@ -18,9 +18,9 @@ var dynamo = require(path.resolve('./connectToDynamo.js'));
 router.post('/publication/', function(req, res, next) {
    var 
     pub = req.body;
-    
+
     dynamo.savePublication( pub, function (data) {
-      console.log(data);
+      console.log('~~~',data);
     });
 });
 router.get('/publication/', function(req, res, next) {

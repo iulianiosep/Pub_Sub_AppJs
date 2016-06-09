@@ -29,6 +29,7 @@ _saveSubscription = function ( sub ) {
     });
 },
 _savePublication = function ( pub, cb) {
+  console.log('Save pub');
     var params = {
         TableName: 'Publication',
         Item: {
@@ -108,7 +109,7 @@ var exp = {
   savePublication : _savePublication
 };
 
-module.export = exp;
+module.exports = exp;
 
 
 // /* GET home page. */
